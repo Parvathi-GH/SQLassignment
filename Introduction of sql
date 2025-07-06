@@ -1,0 +1,25 @@
+SQL was invented in the 1970s by IBM and was first commercially distributed by Oracle. The original name was SEQUEL (Structured English Query Language), later shortened to SQL. It is a standardized programming language used to manage, manipulate and interact with relational databases.
+
+It allow users to perform tasks such as querying data, creating and modifying database structures, and managing access permissions. SQL is widely used across various relational database management systems such as MySQL, PostgreSQL, Oracle, and SQL Server.
+
+How SQL Manages and Interacts with Data
+Data is the core of every application and SQL plays a key role in managing and interacting with this data. Whether you are working with a small user database or handling massive datasets like sales records, SQL allows you to efficiently query, update, and manage relational databases.
+
+Data Retrieval: SQL constructs a query that tells the Database Management System (DBMS) what data is required.
+DBMS Processes Query: The DBMS processes the SQL query, retrieves the data and returns it to the user or application.
+Declarative Nature: SQL is declarative, meaning it focuses on what data should be retrieved, organized or modified, leaving the how to the DBMS.
+SQL encompasses DDL (Data Definition Language) and DML (Data Manipulation Language) commands, which handle operations like creating, updating, and modifying database structures and data.
+
+Key Components of a SQL System
+A SQL system consists of several key components that work together to enable efficient data storage, retrieval, and manipulation.
+
+Databases: Databases are structured collections of data organized into tables, rows, and columns. Databases serve as repositories for storing information efficiently and provide a way to manage and access data.
+Tables: Tables are the fundamental building blocks of a database, consisting of rows (records) and columns (attributes or fields). Tables ensure data integrity and consistency by defining the structure and relationships of the stored information.
+Queries: Queries are SQL commands used to interact with databases. They enable users to retrieve, update, insert, or delete data from tables, allowing for efficient data manipulation and retrieval.
+Constraints: Constraints are rules applied to tables to maintain data integrity. Constraints define conditions that data must meet to be stored in the database, ensuring accuracy and consistency.
+Stored Procedures: Stored procedures are pre-compiled SQL statements stored in the database. Stored procedures can accept parameters, execute complex operations, and return results, enhancing efficiency, reusability, and security in database management.
+Transactions: Transactions are groups of SQL statements that are executed as a single unit of work. Transactions ensure data consistency and integrity by allowing for the rollback of changes if any part of the transaction fails.
+Other important components include Data Types, Indexes, Views, Security, Permissions, and Joins.
+
+SQL Injection and Database Security
+SQL Injection is a type of cyberattack where malicious SQL queries are inserted into input fields to manipulate the database. This can lead to unauthorized data access, modification, or corruption. Preventing SQL injection involves using parameterized queries and input validation.
